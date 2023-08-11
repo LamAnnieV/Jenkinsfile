@@ -11,7 +11,6 @@ pipeline {
       steps {
         sh "echo Run a test command"
       }
-    
     }
         stage ('Deploy') {
       steps {
